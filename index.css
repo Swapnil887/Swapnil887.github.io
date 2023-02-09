@@ -257,3 +257,19 @@ text-align: center;
   display: flex;
   justify-content: space-around;
 }
+
+.social_contacts{
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  font-size: x-large;
+  width: 90%;
+  margin: auto;
+  padding-right: 10px;
+}
+.whatsapp{
+  /* border: 2px solid red; */
+  text-align: center;
+  margin-top: 30px;
+  font-size: xx-large;
+}
