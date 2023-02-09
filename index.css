@@ -130,7 +130,7 @@ a{
   text-decoration: none;
 }
 
-.home-img img{
+.home-img{
   width: 200px;
   height: 200px;
   border-radius: 50%;
@@ -143,12 +143,6 @@ a{
   justify-content: space-evenly;
 }
 
-.home-img{
-  /* border: 2px solid red; */
-  padding: 50px;
-  padding-top: 8px;
-
-}
 .hr_line{
   margin-top: 100px;
   height: 3px;
@@ -169,7 +163,7 @@ a{
 }
 
 
-.sub-skills{
+.skills-card{
   height: 120%;
   width: 330px;
   /* background-color:#00539Csmoke; */
