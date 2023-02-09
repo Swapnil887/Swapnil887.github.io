@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:cursive;
+  /* background-color: #FCF6F5FF; */
+}
+::selection{
+  color:#FCF6F5FF;
+  background:rgb(222, 225, 226);
+}
+
+body{
+  background-color:#00539C;
+}
+
+#details{
+  /* border: 1px solid red; */
+  margin-left:-128px;
+}
+
+
+
+nav{
+  position: fixed;
+  background: #FCF6F5FF;
+  width: 100%;
+  padding: 30px 0;
+  z-index: 12;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #FCF6F5FF;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #00539C;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #00539C;
+  color:#FCF6F5FF;
+}
+/* .img{
+  background: url('img3.jpg')no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ } */
+/* .img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+}  */ 
+
+.card{
+  /* border: 2px solid green; */
+  display: flex;
+  margin: auto;
+  width: 80%;
+}
+
+#sub{
+  /* border: 2px solid blue; */
+  margin-top: 180px;
+  margin-left: 160px;
+  width: 400px;
+  padding-top: 35px;
+}
+
+#image{
+  /* border: 2px solid red; */
+  margin-left: 300px;
+  margin-top: 180px;
+}
+#image>img{
+  /* border: 2px solid red; */
+  background-color: #FCF6F5FF;
+  border-radius: 80%;
+  width: 70%;
+}
+#aboutMe .btn{
+  border: 2px solid #FCF6F5FF;
+  margin-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-weight: 1000;
+  border-radius: 10px;
+  background-color: #FCF6F5FF;
+}
+
+#aboutMe .btn:hover{
+  cursor: pointer;
+  box-shadow: #FCF6F5FF 0px 7px 29px 0px;;
+}
+
+a{
+  color:#FCF6F5FF ;
+  text-decoration: none;
+}
+
+.home-img img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+#introduction{
+  display: flex;
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+  justify-content: space-evenly;
+}
+
+.home-img{
+  /* border: 2px solid red; */
+  padding: 50px;
+  padding-top: 8px;
+
+}
+.hr_line{
+  margin-top: 100px;
+  height: 3px;
+  background-color:#FCF6F5FF ;
+  border: none;
+}
+
+#social{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+}
+#contact-linkedin{
+  padding-left: 20px;
+}
+.About_me{
+  scroll-behavior: smooth;
+}
+
+
+.sub-skills{
+  height: 120%;
+  width: 330px;
+  /* background-color:#00539Csmoke; */
+}
+
+.skills-card-img img{
+  /* border:2px solid red; */
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+    /* padding: 20px; */
+}
+
+.skills-card-name h3{
+text-align: center;
+}
+
+.subcard{
+  /* border: 2px solid blue; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  width: 80%;
+  margin: auto;
+  justify-content: center;
+  padding-left: 140px;
+  gap: 30px;
+}
+
+#About_me{
+  /* border: 2px solid lightblue; */
+  padding-top:100px;
+}
+
+.skills-card-name h3{
+  /* border: 1px solid #FCF6F5FF; */
+  margin-left: -70px;
+  margin-top: 10px;
+}
+
+
+.netlify_img{
+  width:33px
+}
+
+.project_img img{
+  width: 500px;
+  height: 300px;
+}
+
+.link_div{
+  display: flex;
+  /* border: 2px solid blue; */
+  width: 80px;
+  margin: auto;
+}
+.link_div div{
+  margin-left: 10px;
+}
+
+.sub_project{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  margin: auto;
+  /* margin-top: 50px; */
+}
+.project-card{
+  text-align: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.react-activity-calendar{
+  border: 2px solid #FCF6F5FF;
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px;
+  color: #FCF6F5FF;
+}
+
+.streaks{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
