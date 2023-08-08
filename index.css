@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color:#00008Bsmoke
 }
 a {
 text-decoration: none;
@@ -11,8 +12,8 @@ html {
 }
 
 body {
-  background: black;
-  color: rgb(255, 183, 0);
+  background: #8AAAE5;
+  color: #00008B;
 }
 /* nav bar css start */
 #nav-menu {
@@ -20,7 +21,7 @@ body {
   height: auto;
   padding: 15px 10%;
   position: fixed;
-  background-color: rgb(255, 183, 0);
+  background-color: #00008B;
 }
 nav {
   display: flex;
@@ -30,7 +31,7 @@ nav {
 }
 nav .fas {
   display: none;
-  background-color: black;
+  background-color: #8AAAE5;
 }
 
 .fa-instagram{
@@ -47,7 +48,7 @@ nav ul li {
   margin: 10px 20px;
 }
 nav ul li a {
- color: black;
+ color: #8AAAE5;
   text-decoration: none;
   font-size: 20px;
   position: relative;
@@ -57,7 +58,7 @@ nav ul li a::after {
   content: "";
   width: 0;
   height: 3px;
-  background-color: black;
+  background-color: #8AAAE5;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -78,7 +79,7 @@ nav ul li a:hover::after {
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    background-color: rgb(255, 183, 0);
+    background-color: #00008B;
     z-index: 2;
   }
   nav ul li {
@@ -101,7 +102,7 @@ nav ul li a:hover::after {
   padding-top: 100px;
 
   height: 720px;
-  /* background-color: black; */
+  /* background-color: #8AAAE5; */
   display: flex;
   justify-content: space-evenly;
 }
@@ -113,19 +114,19 @@ nav ul li a:hover::after {
   padding: 10px 30px;
   border-radius: 10px;
   border: none;
-  /* border: 0px solid black; */
-  background-color: rgb(255, 183, 0);
-  /* color: black; */
+  /* border: 0px solid #8AAAE5; */
+  background-color: #00008B;
+  /* color: #8AAAE5; */
   font-size: 22px;
 }
 #detials button:hover {
   cursor: pointer;
-  background-color:rgb(255, 183, 0);
+  background-color:#00008B;
   /* color: rgb(255, 204, 0); */
-  border: 2px solid rgb(255, 183, 0);
+  border: 2px solid #00008B;
 }
 #detials button a:hover {
- color: rgb(255, 183, 0);
+ color: #00008B;
 }
 #home .home-img {
   border-radius: 50%;
@@ -270,7 +271,7 @@ nav ul li a:hover::after {
 .project-card {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px 20px;
-  border: 2px solid rgb(255, 183, 0);
+  border: 2px solid #00008B;
 }
 .all_links_project {
   display: flex;
@@ -327,7 +328,7 @@ nav ul li a:hover::after {
   justify-content: space-around;
 }
 #contact_inner a {
-  color: rgb(255, 183, 0);
+  color: #00008B;
   text-decoration: none;
 }
 .c1 {
@@ -380,7 +381,7 @@ nav ul li a:hover::after {
 /* //======================== */
 #whatsapplog {
   width: 150px;
-  color: rgb(255, 183, 0);
+  color: #00008B;
 }
 .social_contacts {
   /* border: 2px solid red; */
@@ -402,6 +403,11 @@ nav ul li a:hover::after {
 .hr_line {
   margin-top: 100px;
   height: 3px;
-  background-color: rgb(255, 183, 0);
+  background-color: #00008B;
   border: none;
+}
+
+
+*{
+  color:#00008Bsmoke
 }
